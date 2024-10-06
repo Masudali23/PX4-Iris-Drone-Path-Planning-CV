@@ -93,9 +93,9 @@ To set up the project on your local machine, follow these steps:
 
 ## Running Instructions
 
-4. **Build the Project:**
+4. **Build the Project:**  (for Ros 2)
    ```bash
-   colcon build (for Ros 2)
+   colcon build
 
 5. **Run the Simulation:** 
     Launch the Gazebo simulation with a custom world:
