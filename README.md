@@ -126,14 +126,14 @@ To set up the project on your local machine, follow these steps:
 
 -Modify paths according to your local environment.        
 
-### Results and Performance
+## Results and Performance
 -The drone successfully navigated the area, avoiding obstacles and detecting weed clusters with a 90% accuracy using the YOLO model. 
 
 -The integration of real-time image processing allowed for autonomous field surveying, making the system suitable for agricultural automation tasks.
 
 -The generated heat maps provided valuable insights into weed distribution across the surveyed area.
 
-### Future Work
+## Future Work
 -Improve the accuracy of weed detection by training on a larger dataset.
 
 -Extend the system for multi-drone coordination to cover larger areas.
