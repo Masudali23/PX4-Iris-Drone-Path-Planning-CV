@@ -25,7 +25,7 @@ The goal of this project is to:
   
   You can see the trajectory of the drone and the waypoints with the range below:
 
-<img src="Path_planning/output_customise_world.png" width="600" />
+<img src="Path_planning/output_customise_world.png" width="400" />
 
 ---
 
@@ -55,7 +55,7 @@ The captured images from each waypoint are fed into a **YOLOv8** model that has 
 - This enables the drone to autonomously detect weed clusters in a given area, which can be crucial for agricultural automation.
 
 
-<img src="Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg" width="600" />
+<img src="Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg" width="400" />
 ---
 
 ### 6. **Heat Map Generation**
