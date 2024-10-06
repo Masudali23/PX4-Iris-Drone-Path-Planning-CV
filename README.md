@@ -81,11 +81,11 @@ To set up the project on your local machine, follow these steps:
    git clone https://github.com/Masudali23/PX4-Iris-Drone-Project.git
    cd PX4-Iris-Drone-Project
 
-2. **Install Dependencies** Install ROS2, MAVROS, and PX4 (follow official documentation for setup). Also, install additional libraries for YOLO:
+2. **Install Dependencies:** Install ROS2, MAVROS, and PX4 (follow official documentation for setup). Also, install additional libraries for YOLO:
    ```bash
    pip install opencv-python torch torchvision
 
-3. **Install YOLOv8** Clone the YOLOv8 repository and install its requirements:
+3. **Install YOLOv8:** Clone the YOLOv8 repository and install its requirements:
    ```bash
    git clone https://github.com/ultralytics/yolov8.git
    cd yolov8
@@ -97,17 +97,17 @@ To set up the project on your local machine, follow these steps:
    ```bash
    colcon build (for Ros 2)
 
-5. **Run the Simulation** 
+5. **Run the Simulation:** 
     Launch the Gazebo simulation with a custom world:
    ```bash
    PX4_SITL_WORLD=/path_to_your_world/name_of_your_world.sdf make px4_sitl gazebo
 
-6. **Launch MAVROS** 
+6. **Launch MAVROS:** 
     Start MAVROS with the appropriate FCU URL:
    ```bash
    ros2 launch mavros px4.launch fcu_url:="udp://:14540@localhost:14557"
 
-7. **Set OFFBOARD Mode** 
+7. **Set OFFBOARD Mode:** 
     Call the service to set the drone mode to OFFBOARD:
    ```bash
    ros2 service call /mavros/set_mode mavros_msgs/srv/SetMode "{base_mode: 0, custom_mode: 'OFFBOARD'}"
@@ -117,9 +117,9 @@ To set up the project on your local machine, follow these steps:
    ```bash
    ros2 topic pub -r 10 /mavros/setpoint_position/local geometry_msgs/msg/PoseStamped "{header: {stamp: {sec: 0, nanosec: 0}, frame_id: 'map'}, pose: {position: {x: 10.0, y: 10.0, z: 5.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}}"
    
-   Execute the Python script for controlling the drone in your specific use case:
+9. **Publish Drone Position from csv file:** Execute the Python script for controlling the drone in your specific use case:
     ```bash 
-        python3 path_of_your_script/drone_flight.py
+    python3 path_of_your_script/drone_flight.py
 
 ## Notes:
 -Ensure your ROS2 and MAVROS setups are correctly configured before running the project.
