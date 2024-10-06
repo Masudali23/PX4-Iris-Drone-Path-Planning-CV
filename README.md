@@ -7,7 +7,7 @@ This project demonstrates a simulated **PX4 Iris drone** navigating through a de
 
 <div style="text-align: center;">
 <img src="Path_planning/overview.png" width="600" />
-<div>
+</div>
 
 ## Project Overview
 The goal of this project is to:
