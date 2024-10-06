@@ -5,7 +5,7 @@ Simulated PX4 Iris drone for autonomous path planning and obstacle avoidance usi
 
 This project demonstrates a simulated **PX4 Iris drone** navigating through a designated area using **MAVROS** and **ROS2**, with real-time obstacle avoidance and camera-based weed detection using **YOLOv8**.
 
-<img src="Path_planning/overview.png" width="600" />
+<img src="Path_planning/overview.png" />
 
 ## Project Overview
 The goal of this project is to:
@@ -35,7 +35,7 @@ The PX4 Iris drone is simulated in **Gazebo** with real-time control using **MAV
 - The simulation environment contains various obstacles (e.g., trees) that the drone avoids while exploring the area.
 - Optimized path planning algorithms ensure smooth navigation, even in complex environments.
 
-<img src="Simulation/simulation.png" width="600" />
+<img src="Simulation/simulation.png" width="400" />
 
 ---
 
@@ -44,7 +44,7 @@ A camera plugin is attached to the drone to capture images at each waypoint. The
 
 - **Camera Features**: Real-time image capture, high-definition snapshots, suitable for agricultural analysis.
 
-<img src="Weed_detection/downward_camera.png" width="600" />
+<img src="Weed_detection/downward_camera.png" width="400" />
 
 ---
 
