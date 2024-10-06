@@ -28,8 +28,9 @@ The goal of this project is to:
   
   You can see the trajectory of the drone and the waypoints with the range below:
 
-<img src="Path_planning/output_customise_world.png" width="400" />
-
+<div align="center">
+    <img src="Path_planning/output_customise_world.png" width="400" />
+</div>
 ---
 
 ### 2. **Drone Simulation**
@@ -38,8 +39,9 @@ The PX4 Iris drone is simulated in **Gazebo** with real-time control using **MAV
 - The simulation environment contains various obstacles (e.g., trees) that the drone avoids while exploring the area.
 - Optimized path planning algorithms ensure smooth navigation, even in complex environments.
 
-<img src="Simulation/simulation.png" width="400" />
-
+<div align="center">
+    <img src="Simulation/simulation.png" width="400" />
+</div>
 ---
 
 ### 3. **Camera Integration**
@@ -47,8 +49,9 @@ A camera plugin is attached to the drone to capture images at each waypoint. The
 
 - **Camera Features**: Real-time image capture, high-definition snapshots, suitable for agricultural analysis.
 
-<img src="Weed_detection/downward_camera.png" width="400" />
-
+<div align="center">
+    <img src="Weed_detection/downward_camera.png" width="400" />
+</div>
 ---
 
 ### 4. **Weed Detection Using YOLO**
@@ -57,16 +60,18 @@ The captured images from each waypoint are fed into a **YOLOv8** model that has 
 - **YOLO Model**: The pre-trained YOLOv8 model identifies weeds with high accuracy and provides segmentation masks for further field analysis.
 - This enables the drone to autonomously detect weed clusters in a given area, which can be crucial for agricultural automation.
 
-
-<img src="Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg" width="400" />
+<div align="center">
+    <img src="Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg" width="400" />
+</div>
 ---
 
 ### 6. **Heat Map Generation**
 - The weed detection data collected during the drone's flight is used to create a **heat map** visualizing weed density across the surveyed area.
 - The heat map helps in identifying the most infested regions, aiding in targeted weed management strategies.
 
-<img src="Weed_detection/heatmap_eg_3.png" width="600" />
-
+<div align="center">
+    <img src="Weed_detection/heatmap_eg_3.png" width="600" />
+</div>
 ---
 
 ### 5. **Real-Time Image Segmentation**
