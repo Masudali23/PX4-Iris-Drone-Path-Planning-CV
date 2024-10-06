@@ -88,8 +88,8 @@ To set up the project on your local machine, follow these steps:
 3. **Install YOLOv8** Clone the YOLOv8 repository and install its requirements:
    ```bash
    git clone https://github.com/ultralytics/yolov8.git
-cd yolov8
-pip install -r requirements.txt
+   cd yolov8
+   pip install -r requirements.txt
 
 ## Running Instructions
 
