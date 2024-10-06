@@ -25,7 +25,7 @@ The goal of this project is to:
   
   You can see the trajectory of the drone and the waypoints with the range below:
 
-![Drone Path Planning](/Users/masudali/PX4-Iris-Drone-Path-Planning-CV/Path_planning/output_customise_world.png)
+![Drone Path Planning](Path_planning/output_customise_world.png)
 
 ---
 
@@ -35,7 +35,7 @@ The PX4 Iris drone is simulated in **Gazebo** with real-time control using **MAV
 - The simulation environment contains various obstacles (e.g., trees) that the drone avoids while exploring the area.
 - Optimized path planning algorithms ensure smooth navigation, even in complex environments.
 
-![Gazebo Simulation](/Users/masudali/PX4-Iris-Drone-Path-Planning-CV/Simulation/simulation.png)
+![Gazebo Simulation](Simulation/simulation.png)
 
 ---
 
@@ -44,7 +44,7 @@ A camera plugin is attached to the drone to capture images at each waypoint. The
 
 - **Camera Features**: Real-time image capture, high-definition snapshots, suitable for agricultural analysis.
 
-![Drone Camera Plugin](/Users/masudali/PX4-Iris-Drone-Path-Planning-CV/downward_camera.png)
+![Drone Camera Plugin](PX4-Iris-Drone-Path-Planning-CV/downward_camera.png)
 
 ---
 
@@ -54,7 +54,7 @@ The captured images from each waypoint are fed into a **YOLOv8** model that has 
 - **YOLO Model**: The pre-trained YOLOv8 model identifies weeds with high accuracy and provides segmentation masks for further field analysis.
 - This enables the drone to autonomously detect weed clusters in a given area, which can be crucial for agricultural automation.
 
-![YOLO Weed Detection](/Users/masudali/PX4-Iris-Drone-Path-Planning-CV/Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg)
+![YOLO Weed Detection](Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg)
 
 ---
 
@@ -62,7 +62,7 @@ The captured images from each waypoint are fed into a **YOLOv8** model that has 
 - The weed detection data collected during the drone's flight is used to create a **heat map** visualizing weed density across the surveyed area.
 - The heat map helps in identifying the most infested regions, aiding in targeted weed management strategies.
 
-![Heat Map Example](/Users/masudali/PX4-Iris-Drone-Path-Planning-CV/Weed_detection/heatmap_eg_3.png)
+![Heat Map Example](Weed_detection/heatmap_eg_3.png)
 
 ---
 
