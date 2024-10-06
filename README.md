@@ -5,7 +5,7 @@ Simulated PX4 Iris drone for autonomous path planning and obstacle avoidance usi
 
 This project demonstrates a simulated **PX4 Iris drone** navigating through a designated area using **MAVROS** and **ROS2**, with real-time obstacle avoidance and camera-based weed detection using **YOLOv8**.
 
-![Project Overview](Path_planning/overview.png)
+<img src="Path_planning/overview.png" width="600" />
 
 ## Project Overview
 The goal of this project is to:
@@ -25,7 +25,7 @@ The goal of this project is to:
   
   You can see the trajectory of the drone and the waypoints with the range below:
 
-![Drone Path Planning](Path_planning/output_customise_world.png)
+<img src="Path_planning/output_customise_world.png" width="600" />
 
 ---
 
@@ -35,7 +35,7 @@ The PX4 Iris drone is simulated in **Gazebo** with real-time control using **MAV
 - The simulation environment contains various obstacles (e.g., trees) that the drone avoids while exploring the area.
 - Optimized path planning algorithms ensure smooth navigation, even in complex environments.
 
-![Gazebo Simulation](Simulation/simulation.png)
+<img src="Simulation/simulation.png" width="600" />
 
 ---
 
@@ -44,7 +44,7 @@ A camera plugin is attached to the drone to capture images at each waypoint. The
 
 - **Camera Features**: Real-time image capture, high-definition snapshots, suitable for agricultural analysis.
 
-![Drone Camera Plugin](Weed_detection/downward_camera.png)
+<img src="Weed_detection/downward_camera.png" width="600" />
 
 ---
 
@@ -54,15 +54,15 @@ The captured images from each waypoint are fed into a **YOLOv8** model that has 
 - **YOLO Model**: The pre-trained YOLOv8 model identifies weeds with high accuracy and provides segmentation masks for further field analysis.
 - This enables the drone to autonomously detect weed clusters in a given area, which can be crucial for agricultural automation.
 
-![YOLO Weed Detection](Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg)
 
+<img src="Weed_detection/runs/detect/predict/20210907_153931_x264_mp4-633_jpg.rf.fd1efb3a32553d54fb3cc88ad8804013.jpg" width="600" />
 ---
 
 ### 6. **Heat Map Generation**
 - The weed detection data collected during the drone's flight is used to create a **heat map** visualizing weed density across the surveyed area.
 - The heat map helps in identifying the most infested regions, aiding in targeted weed management strategies.
 
-![Heat Map Example](Weed_detection/heatmap_eg_3.png)
+<img src="Weed_detection/heatmap_eg_3.png" width="600" />
 
 ---
 
