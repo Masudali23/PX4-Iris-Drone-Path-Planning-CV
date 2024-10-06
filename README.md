@@ -122,21 +122,16 @@ To set up the project on your local machine, follow these steps:
     python3 path_of_your_script/drone_flight.py
 
 ## Notes:
--Ensure your ROS2 and MAVROS setups are correctly configured before running the project.
-
--Modify paths according to your local environment.        
+- Ensure your ROS2 and MAVROS setups are correctly configured before running the project.
+- Modify paths according to your local environment.        
 
 ## Results and Performance
--The drone successfully navigated the area, avoiding obstacles and detecting weed clusters with a 90% accuracy using the YOLO model. 
-
--The integration of real-time image processing allowed for autonomous field surveying, making the system suitable for agricultural automation tasks.
-
--The generated heat maps provided valuable insights into weed distribution across the surveyed area.
+- The drone successfully navigated the area, avoiding obstacles and detecting weed clusters with a 90% accuracy using the YOLO model. 
+- The integration of real-time image processing allowed for autonomous field surveying, making the system suitable for agricultural automation tasks.
+- The generated heat maps provided valuable insights into weed distribution across the surveyed area.
 
 ## Future Work
--Improve the accuracy of weed detection by training on a larger dataset.
-
--Extend the system for multi-drone coordination to cover larger areas.
-
--Implement additional crop health analysis features.
+- Improve the accuracy of weed detection by training on a larger dataset.
+- Extend the system for multi-drone coordination to cover larger areas.
+- Implement additional crop health analysis features.
 
