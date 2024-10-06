@@ -44,7 +44,7 @@ A camera plugin is attached to the drone to capture images at each waypoint. The
 
 - **Camera Features**: Real-time image capture, high-definition snapshots, suitable for agricultural analysis.
 
-![Drone Camera Plugin](PX4-Iris-Drone-Path-Planning-CV/downward_camera.png)
+![Drone Camera Plugin](Weed_detection/downward_camera.png)
 
 ---
 
