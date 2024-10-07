@@ -130,6 +130,11 @@ To set up the project on your local machine, follow these steps:
     ```bash 
     python3 path_of_your_script/drone_flight.py
 
+10. **Arm the Drone:** To arm the drone for flight, use the following command:
+    ```bash 
+    ros2 service call /mavros/cmd/arming mavros_msgs/srv/CommandBool "{value: true}"
+    
+
 ## Notes:
 - Ensure your ROS2 and MAVROS setups are correctly configured before running the project.
 - Modify paths according to your local environment.        
